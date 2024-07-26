@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/* nav section start  */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+    background-color: #550000;
+    padding: 5px 25px ;
+}
+
+nav ul {
+    display: flex;
+    column-gap: 35px;
+}
+
+nav ul li{
+    list-style: none;
+    color: white;
+}
+nav ul li a{
+    font-size: 16px ;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #FFC54D;
+    border-bottom: 2px solid;
+}
+
+/* nav section end  */
+
+/* hero section start  */
+
+.hero-container{
+    background-color: #FFC54D;
+    padding-top: 5px;
+}
+.milestone-container{
+    background-color: #FCF3E7;
+
+}
+
+.milestone-ctn{
+    padding-left: 75px;
+    padding-top: 15px ;
+}
+
+.milestone-ctn ul li{
+    color: #aa0d08;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.milestone-head{
+    border-bottom: 3px solid #FFC54D;
+    color: #470202;
+    padding-left: 25px ;
+}
+.milestone-container img{
+    border-radius: 5px ;
+}
+
+.milestone-container img:hover{
+    scale: 1.02;
+    transition: 1.2s;
+}
+
+.milestone-ctn button{
+    padding: 12px 19px;
+    background-color: #470202;
+    outline: none !important;
+    border-radius: none !important;
+}
+/* hero section end  */
+
+/* faculty section start  */
+.faculty-container{
+    background-color: #FCF3E7;
+    margin-top: 5px;
+}
+
+.faculty-head{
+    padding-left: 36px ;
+    padding-top: 20px;
+    color: #470202;
+    padding-bottom: 15px;
+}
+
+/* faculty section end  */
+
+/* syllabus section start  */
+
+.syllabus-container{
+    background-color: #FCF3E7;
+    margin-top: 5px;
+}
+
+.syllabus-head{
+    padding-left: 36px ;
+    padding-top: 20px;
+    color: #470202;
+    padding-bottom: 15px;
+}
+.ug-li-ctn{
+    padding-left: 100px;
+}
+.ug-li-ctn li{
+    font-size: 19px ;
+    line-height: 32px ;
+    font-weight: 500;
+}
+.ug-li-ctn li:hover{
+    color: #FFC54D;
+    border-bottom: 2px solid #FFC54D;
+    width: fit-content;
+}
+
+.ug-ctn h1{
+    background-color: ;
+}
+
+/* syllabus section end  */
+
+
+
+
+
+/* media querys  */
+
+@media only screen and (max-width: 600px) {
+    .nav-ctn{
+        display: none;
+    }
+  }
+@media only screen and (min-width: 600px) {
+    .nav-ctn{
+        display:inline-block;
+    }
+  }
